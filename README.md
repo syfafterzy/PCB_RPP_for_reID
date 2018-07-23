@@ -18,12 +18,14 @@ Code for the paper [Beyond Part Models: Person Retrieval with Refined Part Pooli
 
 ## train PCB
 <font face="Times New Roman" size=4>
+
 ```sh train_PCB.sh```
 With Pytorch 0.4.0, we shall get about 93.0% rank-1 accuracy and 78.0% mAP on Market-1501.
 </font>
 
 ## train RPP
 <font face="Times New Roman" size=4>
+
 ```sh train_RPP.sh```
 With Pytorch 0.4.0, we shall get about 93.5% rank-1 accuracy and 81.5% mAP on Market-1501.
 </font>
@@ -33,6 +35,7 @@ With Pytorch 0.4.0, we shall get about 93.5% rank-1 accuracy and 81.5% mAP on Ma
 
 Please cite this paper in your publications if it helps your research:
 </font>
+
 ```
 @inproceedings{sun2018PCB,
   author    = {Yifan Sun and

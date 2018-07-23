@@ -6,6 +6,7 @@ Code for the paper [Beyond Part Models: Person Retrieval with Refined Part Pooli
 
 ## Preparation
 <font face="Times New Roman" size=4>
+
 **Prerequisite: Python 2.7 and Pytorch 0.3+**
 
 1. Install [Pytorch](https://pytorch.org/)

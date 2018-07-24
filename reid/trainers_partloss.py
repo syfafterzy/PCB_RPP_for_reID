@@ -22,8 +22,6 @@ class BaseTrainer(object):
         batch_time = AverageMeter()
         data_time = AverageMeter()
         losses = AverageMeter()
-        cdegrees = AverageMeter()
-        sdegrees = AverageMeter()
         precisions = AverageMeter()
         end = time.time()
 
@@ -36,8 +34,6 @@ class BaseTrainer(object):
 #===================================================================================
             loss = (loss0+loss1+loss2+loss3+loss4+loss5)/6
             losses.update(loss.data[0], targets.size(0))
-#            cdegrees.update(cdegree.data[0],targets.size(0))
-#            sdegrees.update(sdegree.data[0],targets.size(0))
             precisions.update(prec1, targets.size(0))
 
             optimizer.zero_grad()
